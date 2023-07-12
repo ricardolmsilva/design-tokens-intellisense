@@ -1,16 +1,18 @@
-# CSS Variable Autocomplete Extension for VS Code
+# Design Tokens Intellisense Extension for VS Code
 
-This extension provides autocompletion for CSS and SASS variable names defined in a global file within your project.
+This extension provides autocompletion for CSS, SASS and SCSS variable names defined in a global file within your project.
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](./demo.gif)
 
 ## Features
 
-- Autocompletion of CSS and SASS variable names while typing `var(--`.
+- Autocompletion of CSS, SASS and SCSS variable names while typing `var(--`.
 
 ## Installation
 
 To install this extension:
 
-1. Download the `.vsix` file from the GitHub repository or other source provided.
+1. Download the `.vsix` file from the GitHub repository in the [Releases Section](https://github.com/ricardolmsilva/design-tokens-intellisense/releases).
 2. Open Visual Studio Code.
 3. Go to the Extensions view (Ctrl+Shift+X).
 4. Click on the More (...) button at the top of the Extensions view, point to `Install from VSIX...`.
@@ -18,7 +20,7 @@ To install this extension:
 
 ## Usage
 
-After installation, when editing CSS or SASS files, you will see autocomplete suggestions pop up after typing `var(--`.
+After installation, when editing CSS, SASS or SCSS files, you will see autocomplete suggestions pop up after typing `var(--`.
 
 The variable suggestions come from the `_corporate-theme.*` file within your workspace.
 
