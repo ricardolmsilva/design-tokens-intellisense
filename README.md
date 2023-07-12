@@ -2,7 +2,7 @@
 
 This extension provides autocompletion for CSS, SASS and SCSS variable names defined in a global file within your project.
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](./demo.gif)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://raw.githubusercontent.com/ricardolmsilva/design-tokens-intellisense/main/demo.gif)
 
 ## Features
 

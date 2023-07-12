@@ -24,7 +24,7 @@ export function activate(context: vscode.ExtensionContext) {
   }
 
   const provider = vscode.languages.registerCompletionItemProvider(
-    ["css", "sass", "scss"],
+    ["css", "sass", "scss", "postcss"],
     {
       provideCompletionItems(
         document: vscode.TextDocument,
